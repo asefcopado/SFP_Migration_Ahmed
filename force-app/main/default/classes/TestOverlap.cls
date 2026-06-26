@@ -8,4 +8,9 @@ public with sharing class TestOverlap {
     public static String sharedMarker() {
         return 'TestOverlap baseline';
     }
+
+    // --- Story B: BOTTOM method (must survive migration) ---
+    public static String methodFromStoryB() {
+        return 'Story B bottom method';
+    }
 }
